@@ -9,7 +9,7 @@ all | / | {ip:String, port:String} | Code:200, {UNIT_NAME:String, ID:String} | U
 LEDUnit | /set | {index:String, r:String, g:String, b:String} | Code:200, String | set LED at index to color {r,g,b}
 LEDUnit | /set | {r:String, g:String, b:String} | Code:200, String | set all LEDS to color {r,g,b}
 LEDUnit | /handleConfigure | n/a | Code:200, String | not implemented, does nothing
-buttonUnit, distanceUnit, encoderUnit, lightSensUnit, scaleUnit | /handleConfigure | {end} | Code:200, String | shut down server, no more routes accesible (does not stop unit from sending sensor readings)
+buttonUnit, distanceUnit, encoderUnit, lightSensUnit, scaleUnit | /handleConfigure | {end} | Code:200, String | shut down server, no more routes accessible (does not stop unit from sending sensor readings)
 distanceUnit, encoderUnit, lightSensUnit, scaleUnit | /handleConfigure | {threshold:String, sensitivity:String, mode:String} | Code:200, String | set threshold, sensitivity and mode
 
 <br/><br/>
