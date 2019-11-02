@@ -1,6 +1,22 @@
 ## Sourcecode for ESP8266 NodeMCU-lolin v3 based hardware units
 <br/>
 
+### LED unit
+![LED unit](https://user-images.githubusercontent.com/10089188/68074697-2ec4a000-fd5b-11e9-8cdb-ec4f10e9d393.png)
+
+### Ultrasound based distance unit
+![Ultrasound based distance unit](https://user-images.githubusercontent.com/10089188/68074703-48fe7e00-fd5b-11e9-8789-79fedbf4add1.png)
+
+### Rotary encoder unit
+![Rotary encoder unit](https://user-images.githubusercontent.com/10089188/68074708-5ca9e480-fd5b-11e9-8ab3-7d5f0ff902cc.png)
+
+### Scale unit (sense when tape is teared)
+![Scale unit (sense when tape is teared)](https://user-images.githubusercontent.com/10089188/68074720-7d723a00-fd5b-11e9-93ad-4a4eb1c00376.png)
+
+### Button unit
+![Button unit](https://user-images.githubusercontent.com/10089188/68074729-a266ad00-fd5b-11e9-8800-b125dc71d820.png)
+
+
 ### API calls
 
 Unit Name | Route | Data | Return | Description
